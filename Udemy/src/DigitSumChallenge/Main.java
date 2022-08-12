@@ -4,6 +4,7 @@ public class Main {
 
     public static int sumDigits(int number) {
         if (number < 10) {
+            System.out.println("Value must be >=10");
             return -1;
         }
         int sum = 0;
