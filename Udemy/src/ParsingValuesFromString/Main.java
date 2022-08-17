@@ -2,7 +2,8 @@ package ParsingValuesFromString;
 
 public class Main {
     public static void main(String[] args) {
-        String numberAsString = "2018";
+
+        String numberAsString = "2018a";
         System.out.println("numberAsString = " + numberAsString);
         int number = Integer.parseInt(numberAsString);
         System.out.println("Number = " + number);
